@@ -1,0 +1,57 @@
+/* Reseta as margens e preenchimentos e define a box-sizing para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f5d04e;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    width: 25%;
+    margin: 11% 37%;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0); /* Adiciona uma sombra */
+}
+.imagem > img{
+    border-radius: 15px;
+    }
+
+.btn{
+    background-color: #f5d04e;
+    height: min-content;
+    border: none;
+    font-size:larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.date{
+    margin-bottom: 30px;
+}
+.description{
+    color: #878787;
+    margin-bottom: 20px;
+}
+.profile {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.profile > img {
+    margin-right: 25px;
+}
+
+.profile > p {
+    margin: 0; /* Remover margens padrão */
+    font-weight: bold;
+}
