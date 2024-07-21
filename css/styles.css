@@ -50,6 +50,10 @@ body {
 .profile > img {
     margin-right: 25px;
 }
+.profile > p {
+    margin: 0; /* Remover margens padrão */
+    font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -57,7 +61,3 @@ body {
     margin: 10px auto;
     padding: 15px;
   }
-.profile > p {
-    margin: 0; /* Remover margens padrão */
-    font-weight: bold;
-}
