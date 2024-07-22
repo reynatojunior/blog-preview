@@ -37,11 +37,20 @@ body {
     padding: 10px 20px;
 }
 .date{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.title{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    }
+.title:hover{
+    color: #f5d04e;
 }
 .description{
     color: #878787;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .profile {
     display: flex;
